@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Dec 13, 2017 at 06:00 PM
+-- Generation Time: Dec 13, 2017 at 06:10 PM
 -- Server version: 5.6.35
 -- PHP Version: 7.1.8
 
@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `gg-starter`
 --
+CREATE DATABASE IF NOT EXISTS `gg-starter` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `gg-starter`;
 
 -- --------------------------------------------------------
 
